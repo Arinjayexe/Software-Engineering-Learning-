@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineering Quiz | SEHub</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">SE<span>Hub.</span></div>
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="models.html">SDLC Models</a>
+        <a href="phases.html">Development Phases</a>
+        <a href="diagrams.html">Diagrams</a>
+        <a href="quiz.html">Quiz</a>
+    </nav>
+</header>
+
+<section class="page-hero">
+    <p class="hero-tag">TEST YOUR KNOWLEDGE</p>
+    <h1>Software Engineering <span>Quiz</span></h1>
+    <p>Challenge yourself and check how much you have learned!</p>
+</section>
+
+<main class="quiz-container">
+
+    <div class="quiz-info">
+        <div>
+            <h3>Knowledge Challenge</h3>
+            <p>15 Questions | 15 Marks</p>
+        </div>
+        <div class="quiz-score">
+            Score: <span id="score">0</span>
+        </div>
+    </div>
+
+    <div class="quiz-progress">
+        <div id="progressBar"></div>
+    </div>
+
+    <p class="question-count" id="questionCount">Question 1 of 15</p>
+
+    <div class="question-card">
+        <h2 id="question">Question will appear here</h2>
+
+        <div class="options" id="options"></div>
+
+        <p id="feedback"></p>
+
+        <button id="nextBtn" class="quiz-btn" disabled>
+            Next Question →
+        </button>
+    </div>
+
+    <div id="resultBox" class="result-box">
+        <h2>Quiz Completed!</h2>
+        <p id="finalScore"></p>
+        <p id="resultMessage"></p>
+        <button id="restartBtn" class="quiz-btn">Try Again</button>
+    </div>
+
+</main>
+
+<footer class="footer">
+    <p>© 2026 Software Engineering Hub | Software Engineering Learning Website</p>
+    <p>Learn Smart. Build Better.</p>
+</footer>
+
+</body>
+</html>
